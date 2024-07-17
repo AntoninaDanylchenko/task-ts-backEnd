@@ -1,0 +1,13 @@
+GET http://localhost:3200/tasks
+Content-Type: application/json
+
+POST http://localhost:3200/tasks
+Content-Type: application/json
+
+{
+    "title": "Study Nest.js",
+    "date": "2024-07-17T12:06:00Z",
+    "description": "jagvnksmmlkrthblrynk,",
+    "priority": "low",
+    "status": "todo"
+}
